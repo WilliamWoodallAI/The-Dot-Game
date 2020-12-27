@@ -121,7 +121,7 @@ class DQAgent:
         self.batch_size = 256
         self.gamma = 0.99
         self.epsilon = 0.4
-        self.epsilon_decay = 7e-7
+        self.epsilon_decay = 1e-6
         self.epsilon_min = 0.05
         self.learn_step = 0
         self.update_freq = 1000
